@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html></html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <title>
+            우산을 부탁해!!!
+        </title>
+    </head>
+    <body>
+        모르시는 정보는 빈 칸으로 남겨 주세요
+        <br/>
+        <form action='/predict'>
+            지역 : <input type="text" placeholder="값을 넣어주세요" name="지역"/><br/>
+            평균기온(°C) : <input type="text" placeholder="값을 넣어주세요" name="평균기온"/><br/>
+            최저기온(°C) : <input type="text" placeholder="값을 넣어주세요" name="최저기온"/><br/>
+            최고기온(°C) : <input type="text" placeholder="값을 넣어주세요" name="최고기온"/><br/>
+            최대 순간 풍속(m/s) : <input type="text" placeholder="값을 넣어주세요" name="최대순간풍속"/><br/>
+            최대 풍속(m/s) : <input type="text" placeholder="값을 넣어주세요" name="최대풍속"/><br/>
+            평균 풍속(m/s) : <input type="text" placeholder="값을 넣어주세요" name="평균풍속"/><br/>
+            평균 이슬점온도(°C) : <input type="text" placeholder="값을 넣어주세요" name="이슬점온도"/><br/>
+            최소 상대습도(%) : <input type="text" placeholder="값을 넣어주세요" name="최소상대습도"/><br/>
+            평균 상대습도(%) : <input type="text" placeholder="값을 넣어주세요" name="상대습도"/><br/>
+            평균 현지기압(hPa) : <input type="text" placeholder="값을 넣어주세요" name="현지기압"/><br/>
+            최고 해면기압(hPa) : <input type="text" placeholder="값을 넣어주세요" name="최고기압"/><br/>
+            최저 해면기압(hPa) : <input type="text" placeholder="값을 넣어주세요" name="최저기압"/><br/>
+            평균 해면기압(hPa) : <input type="text" placeholder="값을 넣어주세요" name="평균기압"/><br/>
+            월 : <input type="text" placeholder="값을 넣어주세요" name="월"/><br/>
+
+        <input type='submit' value='예측'>
+    </form>
+
+
+    </body>
+</html>
